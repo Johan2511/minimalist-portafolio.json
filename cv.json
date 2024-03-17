@@ -1,8 +1,8 @@
 {
     "basics": {
-      "name": "John Doe",
-      "label": "Programmer",
-      "image": "",
+      "name": "Johan Peñuela",
+      "label": " Programador web",
+      "image": "https://avatars.githubusercontent.com/u/84041579?v=4",
       "email": "john@gmail.com",
       "phone": "(912) 555-4321",
       "url": "https://johndoe.com",
@@ -10,9 +10,9 @@
       "location": {
         "address": "2712 Broadway St",
         "postalCode": "CA 94115",
-        "city": "San Francisco",
+        "city": "Bogotá D.C",
         "countryCode": "US",
-        "region": "California"
+        "region": "Colombia"
       },
       "profiles": [{
         "network": "Twitter",
