@@ -29,23 +29,23 @@
     },
     "work": [
       {
-      "name": "Company",
-      "position": "President",
+      "name": "Semana",
+      "position": "Analista Soporte de aplicaciones",
       "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+      "startDate": "2023-08-01",
+      "endDate": "2023-11-01",
+      "summary": "Realizar el soporte de las plataformas web, Dar solución a las peticiones relacionadas con los sistemas core de la entidad. Realizar la respectiva documentación y clasificación de los errores del sistema.Configurar y parametrizar las aplicaciones garantizando su disponibilidad y funcionamiento. Analizar las solicitudes y/o incidentes para generar planes de acción de indicadores periódicos de la gestión. Manejo de Paquete de office herramienta que apoya a la realizacion de graficas para su analisis sobre incidencias Elaboración de reportes transaccional",
       "highlights": [
         "Started the company"
       ]
     },
       {
-      "name": "Company",
-      "position": "President",
+      "name": "Rappi",
+      "position": "Android Developer",
       "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+      "startDate": "2022-06-01",
+      "endDate": "2023-01-15",
+      "summary": "Responsabiidades: Uso de nuevas tecnologías como Jetpack Compose Desarrollador encargado del proceso de creación de aplicaciones nativas. Uso de Material design. Migración de módulo",
       "highlights": [
         "Started the company"
       ]
@@ -63,12 +63,12 @@
       ]
     }],
     "education": [{
-      "institution": "University",
+      "institution": "ProTalento",
       "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
+      "area": "Programador Web full stack",
+      "studyType": "Tecnólogo",
+      "startDate": "2021-10-01",
+      "endDate": "2022-05-01",
       "score": "4.0",
       "courses": [
         "DB1101 - Basic SQL"
@@ -93,15 +93,63 @@
       "url": "https://publication.com",
       "summary": "Description…"
     }],
-    "skills": [{
-      "name": "Web Development",
+    "skills": [
+    {
+      "name": "Desarrollo Web Frontend",
       "level": "Master",
       "keywords": [
-        "HTML",
-        "CSS",
+        "HTML5",
+        "CSS3",
+        "SASS",
+        "Bootstrap",
         "JavaScript"
       ]
-    }],
+    },
+    {
+      "name": "Desarrollo Web Backend",
+      "level": "Master",
+      "keywords": [
+        "Node.js",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Frameworks y Herramientas de Prueba",
+      "level": "Profesional",
+      "keywords": [
+        "Jest",
+        "Storybook",
+        "Testing Library"
+      ]
+    },{
+      "name": "ReactJS",
+      "level": "Avanzado",
+      "keywords": []
+    },
+    {
+      "name": "Metodologías Ágiles (Scrum)",
+      "level": "Profesional",
+      "keywords": []
+    },
+    {
+      "name": "Bases de Datos Relacionales",
+      "level": "Avanzado",
+      "keywords": [
+        "MySQL",
+        "PostgreSQL",
+        "Oracle"
+      ]
+    },
+    {
+      "name": "Control de Versiones y Plataformas de Colaboración",
+      "level": "Avanzado",
+      "keywords": [
+        "Git",
+        "GitHub",
+        "Jira"
+      ]
+    }
+  ],
     "languages": [{
       "language": "English",
       "fluency": "Native speaker"
