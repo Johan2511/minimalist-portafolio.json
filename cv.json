@@ -3,10 +3,10 @@
       "name": "Johan Peñuela",
       "label": " Programador web",
       "image": "/Johan.webp",
-      "email": "john@gmail.com",
-      "phone": "(912) 555-4321",
+      "email": "johanpenuela@gmail.com",
+      "phone": "(+57) 3222341882",
       "url": "https://johndoe.com",
-      "summary": "A summary of John Doe…",
+      "summary": "Desarrollador Web con experiencia en tecnologías como HTML5, CSS3, SASS, Boostrap y JavaScript(nodeJs,TypeScript) además del conocimiento en el manejo de frameworks de prueba para JavaScript como son (Jest, Storybook, Testing Library), para construir experiencias de usuario excepcionales. Con especial énfasis en ReactJ. Tengo experiencia desarrollando en equipo donde adoptan metodologias ágiles, especialmente scrum. Esto me ha brindadoo una comprension de la importancia de la colaboración Tambien he trabajado con BD relacionales como mySQL, postgresSQL y oracle, tengo experiencia en herramientas como Git y plataformas como GitHub y Jira para trabajar en equipo.",
       "location": {
         "address": "2712 Broadway St",
         "postalCode": "CA 94115",
@@ -14,13 +14,21 @@
         "countryCode": "US",
         "region": "Colombia"
       },
-      "profiles": [{
-        "network": "Twitter",
-        "username": "john",
-        "url": "https://twitter.com/john"
-      }]
+      "profiles": [
+        {
+        "network": "Github",
+        "username": "Johan2511",
+        "url": "https://github.com/Johan2511"
+        },
+        {
+          "network": "LinkedIn",
+          "username": "Johan Mauricio Peñuela Hidalgo",
+          "url": "https://www.linkedin.com/in/johan-mauricio-pe%C3%B1uela-hidalgo-9633a0210/"
+        }
+    ]
     },
-    "work": [{
+    "work": [
+      {
       "name": "Company",
       "position": "President",
       "url": "https://company.com",
@@ -30,7 +38,19 @@
       "highlights": [
         "Started the company"
       ]
-    }],
+    },
+      {
+      "name": "Company",
+      "position": "President",
+      "url": "https://company.com",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
     "volunteer": [{
       "organization": "Organization",
       "position": "Volunteer",
