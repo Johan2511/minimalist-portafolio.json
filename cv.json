@@ -165,14 +165,81 @@
       "name": "Jane Doe",
       "reference": "Reference…"
     }],
-    "projects": [{
-      "name": "Project",
+    "projects": [
+      {
+      "name": "TODO-App",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
-      "description": "Description...",
+      "isActive": true,
+      "description": "Una app realizada con React para la creación de tareas.",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Patrones de render Y Composición",
+        "Javascript",
+        "React"
       ],
-      "url": "https://project.com/"
-    }]
+      "url": "https://github.com/Johan2511/TODO-React/deployments/github-pages"
+    },
+      {
+      "name": "Tienda-Productos",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "isActive": true,
+      "description": "Tienda de productos hecha con React",
+      "highlights": [
+        "Javascript",
+        "React",
+        "API"
+      ],
+      "url": "https://tiendaproductosshoppi.netlify.app/sign-in"
+    },
+      {
+      "name": "Tarjeta de credito",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "isActive": true,
+      "description": "Maquetación de tarjeta de crédito con su respectiva validación", 
+      "highlights": [
+        "Javascript",
+        "Validación de datos",
+        "CSS"
+      ],
+      "url": "https://trajetadecredito.netlify.app/"
+    },
+      {
+      "name": "calculadora de Edad",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "isActive": true,
+      "description": "Una app donde se calcula la edad apartir de los datos dados",
+      "highlights": [
+        "Javascript",
+        "CSS"
+      ],
+      "url": "https://bright-tulumba-441cb3.netlify.app/"
+    },
+      {
+      "name": "Calculadora",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "isActive": true,
+      "description": "Calculadora para poder sumar, multiplicar restar o dividir en React",
+      "highlights": [
+        "React",
+        "Javascript"
+      ],
+      "url": "https://cerulean-paletas-636f31.netlify.app/"
+    },
+      {
+      "name": "Blog de café",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "isActive": true,
+      "description": "Pagina de un blog de café donde muestra formas de preparar con pagina de contacto ",
+      "highlights": [
+        "CSS",
+        "Maquetación"
+      ],
+      "url": "https://sparkling-quokka-5a0ead.netlify.app/"
+    }
+  ]
   }
