@@ -6,9 +6,10 @@ import Phone from '@/icons/Phone.astro'
 import X from '@/icons/X.astro'
 import LinkedIn from '@/icons/LinkedIn.astro'
 import Github from '@/icons/Github.astro'
+import WhatsApp from '@/icons/whatsApp.astro'
 import WorldMap from '@/icons/WorldMap.astro'
 
-const { name, label, image, location, profiles, phone, email } = basics
+const { name, label, image, location, profiles, phone, whatsApp, email } = basics
 const { city,region} = location
 
 const SOCIAL_ICONS: Record<string, any> = {
@@ -51,10 +52,22 @@ const printInfo = [email,phone,LinkedUrl].filter(Boolean).join("&bull;")
                     phone && (
                         <a
                         href={`tel:${phone}`}
-                            title={`Llamar por teléfono a ${name} al número ${phone}` }
+                            title={`Contactame a ${name} al número ${phone}` }
                             target="_blank"
                             rel="noopener noreferrer">
                             <Phone />
+                            
+                        </a>
+                    )
+                }
+                {
+                    whatsApp && (
+                        <a
+                        href={`whatsapp:${whatsApp}`}
+                            title={`Llamar por teléfono a ${name} al número ${phone}` }
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <WhatsApp />
                             
                         </a>
                     )
@@ -89,12 +102,13 @@ const printInfo = [email,phone,LinkedUrl].filter(Boolean).join("&bull;")
         align-items: center;
         justify-content: space-between;
         gap: 1rem;
-        padding: 32px;
+        
     }
     .info {
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
+        padding-right: 32px;
     }
     h1 {
         font-size:2rem;
@@ -140,13 +154,38 @@ const printInfo = [email,phone,LinkedUrl].filter(Boolean).join("&bull;")
     }
 
     footer a:hover {
-        background-color:#eee ;
+        background: #eee;
+        border: 1px solid #ddd;
     }
 
-    @media print {
+    @media (width <= 700px) {
+    .container {
+      flex-direction: column-reverse;
+    }
+    /* @media print {
         .no-print {
             display: none;
         }
+    } */
+
+    .info {
+      justify-content: center;
+      align-items: center;
+      padding-right: 0;
+      text-align: center;
+    }
+
+    figure {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h2 {
+      text-wrap: balance;
+    }
+    figure {
+      margin: 0 auto;
     }
 
     .print {

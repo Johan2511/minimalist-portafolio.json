@@ -5,6 +5,7 @@
       "image": "/Johan.webp",
       "email": "johanpenuela@gmail.com",
       "phone": "(+57) 3222341882",
+      "whatsApp":"Wa.me/573222341882",
       "url": "https://johndoe.com",
       "summary": "Desarrollador Web con experiencia en tecnologías como HTML5, CSS3, SASS, Boostrap y JavaScript(nodeJs,TypeScript) además del conocimiento en el manejo de frameworks de prueba para JavaScript como son (Jest, Storybook, Testing Library), para construir experiencias de usuario excepcionales. Con especial énfasis en ReactJ. Tengo experiencia desarrollando en equipo donde adoptan metodologias ágiles, especialmente scrum. Esto me ha brindadoo una comprension de la importancia de la colaboración Tambien he trabajado con BD relacionales como mySQL, postgresSQL y oracle, tengo experiencia en herramientas como Git y plataformas como GitHub y Jira para trabajar en equipo.",
       "location": {
@@ -19,6 +20,7 @@
         "network": "Github",
         "username": "Johan2511",
         "url": "https://github.com/Johan2511"
+        
         },
         {
           "network": "LinkedIn",
@@ -171,19 +173,22 @@
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "isActive": true,
+      "github": "https://github.com/Johan2511/TODO-React",
       "description": "Una app realizada con React para la creación de tareas.",
       "highlights": [
         "Patrones de render Y Composición",
         "Javascript",
         "React"
       ],
-      "url": "https://github.com/Johan2511/TODO-React/deployments/github-pages"
+      "url": "https://663428006819066ca3c83e7a--sensational-biscochitos-e0072a.netlify.app/"
+      
     },
       {
       "name": "Tienda-Productos",
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "isActive": true,
+      "github": "https://github.com/Johan2511/Tienda-Productos",
       "description": "Tienda de productos hecha con React",
       "highlights": [
         "Javascript",
@@ -197,6 +202,7 @@
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "isActive": true,
+      "github": "https://github.com/Johan2511/Tarjeta_credito",
       "description": "Maquetación de tarjeta de crédito con su respectiva validación", 
       "highlights": [
         "Javascript",
@@ -210,6 +216,7 @@
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "isActive": true,
+      "github": "https://github.com/Johan2511/Age_Calculator_frontend",
       "description": "Una app donde se calcula la edad apartir de los datos dados",
       "highlights": [
         "Javascript",
@@ -222,6 +229,7 @@
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",
       "isActive": true,
+      "github": "https://github.com/Johan2511/App-Calculadora-React",
       "description": "Calculadora para poder sumar, multiplicar restar o dividir en React",
       "highlights": [
         "React",
