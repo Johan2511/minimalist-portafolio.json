@@ -20,7 +20,11 @@ const SOCIAL_ICONS: Record<string, any> = {
 const LinkedInfo = profiles.find(({network}) => network === "LinkedIn")
 const LinkedUrl = LinkedInfo?.url
 
-const printInfo = [email,phone,LinkedUrl].filter(Boolean).join("&bull;")
+const printInfo = [
+    email && `Email: ${email}`,
+    phone && `Teléfono: ${phone}`,
+    LinkedUrl && `LinkedIn: ${LinkedUrl}`
+].filter(Boolean).join("•")
 ---
 <Section >
     <div class="container">
@@ -163,7 +167,6 @@ const printInfo = [email,phone,LinkedUrl].filter(Boolean).join("&bull;")
       flex-direction: column-reverse;
     }
 
-
     .info {
       justify-content: center;
       align-items: center;
@@ -180,16 +183,10 @@ const printInfo = [email,phone,LinkedUrl].filter(Boolean).join("&bull;")
     h2 {
       text-wrap: balance;
     }
+
     figure {
       margin: 0 auto;
     }
+  }
 
-    .print {
-        display: none;
-    }
-    @media print {
-        .print {
-            display: block;
-        }
-    }
 </style>

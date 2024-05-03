@@ -1,11 +1,11 @@
 {
     "basics": {
       "name": "Johan Mauricio Peñuela Hidalgo",
-      "label": " Programador web",
+      "label": "Programador web",
       "image": "/Johan.webp",
       "email": "johanpenuela@gmail.com",
       "phone": "(+57) 3222341882",
-      "whatsApp":"Wa.me/573222341882",
+      "whatsApp":"https://wa.me/573222341882",
       "url": "https://johndoe.com",
       "summary": "Desarrollador Web con experiencia en tecnologías como HTML5, CSS3, SASS, Boostrap y JavaScript(nodeJs,TypeScript) además del conocimiento en el manejo de frameworks de prueba para JavaScript como son (Jest, Storybook, Testing Library), para construir experiencias de usuario excepcionales. Con especial énfasis en ReactJ. Tengo experiencia desarrollando en equipo donde adoptan metodologias ágiles, especialmente scrum. Esto me ha brindadoo una comprension de la importancia de la colaboración Tambien he trabajado con BD relacionales como mySQL, postgresSQL y oracle, tengo experiencia en herramientas como Git y plataformas como GitHub y Jira para trabajar en equipo.",
       "location": {
