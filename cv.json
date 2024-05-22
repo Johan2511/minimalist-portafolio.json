@@ -261,6 +261,18 @@
         "Javascript"
       ],
       "url": "https://664d9057a4e4b3a62f19d77d--incredible-cat-4217cc.netlify.app/"
+    },
+    {
+      "name": "Stereo-Picnic",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "isActive": true,
+      "description": "Pagina del evento Stero-Picnic ",
+      "highlights": [
+        "CSS",
+        "Maquetación"
+      ],
+      "url": "https://stereopicnic.netlify.app/"
     }
 
   ]
