@@ -248,6 +248,20 @@
         "Maquetación"
       ],
       "url": "https://sparkling-quokka-5a0ead.netlify.app/"
+    },
+    {
+      "name": "Moving_Renovation",
+      "startDate": "2024-04-01",
+      "endDate": "2024-05-22",
+      "isActive": true,
+      "github": "https://github.com/Johan2511/Tienda--Mudanza/tree/main/Moving-renovation",
+      "description": "Pagina de mudanzas",
+      "highlights": [
+        "React",
+        "Javascript"
+      ],
+      "url": "https://664d9057a4e4b3a62f19d77d--incredible-cat-4217cc.netlify.app/"
     }
+
   ]
   }
